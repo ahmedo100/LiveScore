@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="https://use.fontawesome.com/d8a868ec93.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/fontawesome.css">
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Livefoot</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="node_modules/bulma/css/bulma.css">
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+    <nav class="navbar is-transparent">
+        <div class="navbar-brand">
+          <a class="navbar-item" href="./index.html">
+            <img src="assets/images/livefoot244.svg" style="min-height: 80px;"   >
+          </a>
+          <div class="navbar-burger burger" data-target="navbarExampleTransparentExample">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+      
+        <div id="navbarExampleTransparentExample" class="navbar-menu">
+          <div class="navbar-start">
+            <a class="navbar-item" href="index.html">
+              Acceuil
+            </a>
+            <a class="navbar-item" href="./index.html?chLeague&id">
+                Ligue des champions
+            </a>
+            <div class="navbar-item has-dropdown is-hoverable">
+              <a class="navbar-link" >
+                Ligues
+              </a>
+              <div class="navbar-dropdown is-boxed">
+                <a class="navbar-item" href="index.html?id=2021" >
+                  Premiere league
+                </a>
+                <a class="navbar-item" href="index.html?id=2015" >
+                  Ligue 1
+                </a>
+                <a class="navbar-item" href="index.html?id=2019" >
+                  Serie A
+                </a>
+                <a class="navbar-item" href="index.html?id=2014" >
+                  La Liga
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>  
+    <hr>
+    <center >
+      <h4 id="leagueName" class="title is" style="margin-bottom: 30px;">
+            //currentLeagueName//
+      </h4>
+    </center>
+      <div class="tabs is-centered is-boxed is-medium">
+            <ul>
+              <li class="is-active" id="classement" >
+                <a onclick="swapView()">
+                  <span class="icon is-small"><i class="fas fa-trophy" aria-hidden="true"></i></span>
+                  <span>Classement</span>
+                </a>
+              </li>
+              <li  id="matches" >
+                <a onclick="swapView()">
+                  <span class="icon is-small"><i class="fas fa-futbol-o" aria-hidden="true"></i></span>
+                  <span>Matches</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+      <div class="columns"  id="historyColumns"  >
+        <div class="column"></div>
+          <table class="table">
+                <thead>
+                  <tr>
+                    <th><abbr title="Position">Pos</abbr></th>
+                    <th>Équipe</th>
+                    <th><abbr title="Points">Pts</abbr></th>
+                    <th><abbr title="Played">J</abbr></th>
+                    <th><abbr title="Won">G</abbr></th>
+                    <th><abbr title="Drawn">N</abbr></th>
+                    <th><abbr title="Lost">P</abbr></th>
+                    <th><abbr title="Goals for">BP</abbr></th>
+                    <th><abbr title="Goals against">BC</abbr></th>
+                    <th><abbr title="Goal difference">DIFF</abbr></th>
+                  </tr>
+                </thead>
+                <tfoot>
+                    <tr>
+                        <th><abbr title="Position">Pos</abbr></th>
+                        <th>Équipe</th>
+                        <th><abbr title="Points">Pts</abbr></th>
+                        <th><abbr title="Joués">J</abbr></th>
+                        <th><abbr title="Victoires">G</abbr></th>
+                        <th><abbr title="Nulls">N</abbr></th>
+                        <th><abbr title="Perdus">P</abbr></th>
+                        <th><abbr title="Buts for">BP</abbr></th>
+                        <th><abbr title="Goals comm">BC</abbr></th>
+                        <th><abbr title="Difference">DIFF</abbr></th>
+                      </tr>
+                </tfoot>
+                <tbody id="tbody">
+                </tbody>
+              </table>
+          <div class="column"></div>
+    </div>
+       
+      <!-- 
+        Modal body begin
+       -->
+
+       <div class="container" id="app">
+        <div id="image-modal" class="modal">
+          <div class="modal-background"></div>
+          <div class="modal-content">
+           <div class="modal-card">
+              <header class="modal-card-head">
+                  <p class="modal-card-title" id="modalTitle" >Modal title</p>
+                  <button class="delete" aria-label="close" id="image-modal-close"></button>
+                </header>
+            
+          <section class="modal-card-body">
+            <div class="columns">
+              <div class="column" style="margin-left: 25px;">
+                <ul>
+                  <li >
+                    <h3 class="title is-6" id="nomEquipe">Nom:</h3>
+                  </li>
+                  <br>
+                  <li >
+                    <h3 class="title is-6" id="dateCreationEquipe">Date de création: </h3>
+                  </li>
+                  <br>
+                  <li>
+                    <h3 class="title is-6" id="stadeEquipe">Stade :</h3>
+                  </li>
+                  <br>
+                </ul>
+              </div>
+              <div class="column">
+                  <img id="imgLogo" width="200" height="200" src="assets/images/livefoot244.svg">
+              </div>
+            </div>
+            <center style="margin-bottom: 30px;margin-top: 30px;"> <h4 class="title is-4">Joueurs de l'équipe</h4></center>
+            <table class="table">
+              <thead>
+                <tr>
+                  <th><abbr title="Nom">Nom</abbr></th>
+                  <th><abbr title="DateN">Date de Naissance</abbr></th>
+                  <th><abbr title="PaysOrigine">Pays d'origine</abbr></th>
+                  <th><abbr title="num">Numero</abbr></th>
+                  <th><abbr title="Position">Position</abbr></th>
+                </tr>
+              </thead>
+              <tfoot>
+                  <tr>
+                      <th><abbr title="Nom">Nom</abbr></th>
+                      <th><abbr title="DateN">Date de Naissance</abbr></th>
+                      <th><abbr title="PaysOrigine">Pays d'origine</abbr></th>
+                      <th><abbr title="num">Numero</abbr></th>
+                      <th><abbr title="Position">Position</abbr></th>
+                    </tr>
+              </tfoot>
+              <tbody id="bodyNomJoueurs">
+                <tr>
+                  <td>Adil Aouchiche</td>
+                  <td>2002-07-15</td>
+                  <td>France</td>
+                  <td>38</td>
+                  <td>Midfielder</td>
+                </tr>
+                <tr>
+              </tbody>
+            </table>
+          </section>
+        </div>
+          </div>
+        </div>
+        <br>
+      </div>
+
+      <!-- 
+        Modal body end
+       -->
+       <!-- Start of Columns -->
+       <div class="columns hide" id="matchHistory">
+         <div class="column"></div>
+         <div class="column is-centered is-two-thirds" >
+          <table class="table is-striped is-fullwidth">
+            <thead>
+              <tr>
+                <th>
+                  Equipe 1
+                </th>
+                <th>
+                  Score
+                </th>
+                <th>
+                  Equipe 2
+                </th>
+              </tr>
+              <tbody id="scoreId">
+               
+              </tbody>
+            </thead>
+          </table>
+        </div>
+        <div class="column"></div> 
+
+        <!-- End of columns  -->
+      </div> 
+   <script src="assets/apicalls.js"></script>
+</body>
+</html>

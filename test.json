@@ -1,0 +1,552 @@
+{
+    "count": 11,
+    "filters": {
+        "dateFrom": "2019-12-02",
+        "dateTo": "2019-12-09",
+        "permission": "TIER_ONE",
+        "competitions": [
+            2019
+        ]
+    },
+    "matches": [
+        {
+            "id": 279363,
+            "competition": {
+                "id": 2019,
+                "name": "Serie A"
+            },
+            "season": {
+                "id": 530,
+                "startDate": "2019-08-24",
+                "endDate": "2020-05-24",
+                "currentMatchday": 14,
+                "winner": null
+            },
+            "utcDate": "2019-12-02T19:45:00Z",
+            "status": "SCHEDULED",
+            "matchday": 14,
+            "stage": "REGULAR_SEASON",
+            "group": "Regular Season",
+            "lastUpdated": "2019-09-26T15:34:19Z",
+            "score": {
+                "winner": null,
+                "duration": "REGULAR",
+                "fullTime": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                },
+                "halfTime": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                },
+                "extraTime": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                },
+                "penalties": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                }
+            },
+            "homeTeam": {
+                "id": 104,
+                "name": "Cagliari Calcio"
+            },
+            "awayTeam": {
+                "id": 584,
+                "name": "UC Sampdoria"
+            },
+            "referees": []
+        },
+        {
+            "id": 279367,
+            "competition": {
+                "id": 2019,
+                "name": "Serie A"
+            },
+            "season": {
+                "id": 530,
+                "startDate": "2019-08-24",
+                "endDate": "2020-05-24",
+                "currentMatchday": 14,
+                "winner": null
+            },
+            "utcDate": "2019-12-06T19:45:00Z",
+            "status": "SCHEDULED",
+            "matchday": 15,
+            "stage": "REGULAR_SEASON",
+            "group": "Regular Season",
+            "lastUpdated": "2019-09-26T15:34:19Z",
+            "score": {
+                "winner": null,
+                "duration": "REGULAR",
+                "fullTime": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                },
+                "halfTime": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                },
+                "extraTime": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                },
+                "penalties": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                }
+            },
+            "homeTeam": {
+                "id": 108,
+                "name": "FC Internazionale Milano"
+            },
+            "awayTeam": {
+                "id": 100,
+                "name": "AS Roma"
+            },
+            "referees": []
+        },
+        {
+            "id": 279370,
+            "competition": {
+                "id": 2019,
+                "name": "Serie A"
+            },
+            "season": {
+                "id": 530,
+                "startDate": "2019-08-24",
+                "endDate": "2020-05-24",
+                "currentMatchday": 14,
+                "winner": null
+            },
+            "utcDate": "2019-12-07T14:00:00Z",
+            "status": "SCHEDULED",
+            "matchday": 15,
+            "stage": "REGULAR_SEASON",
+            "group": "Regular Season",
+            "lastUpdated": "2019-09-26T15:34:19Z",
+            "score": {
+                "winner": null,
+                "duration": "REGULAR",
+                "fullTime": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                },
+                "halfTime": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                },
+                "extraTime": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                },
+                "penalties": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                }
+            },
+            "homeTeam": {
+                "id": 102,
+                "name": "Atalanta BC"
+            },
+            "awayTeam": {
+                "id": 450,
+                "name": "Hellas Verona FC"
+            },
+            "referees": []
+        },
+        {
+            "id": 279369,
+            "competition": {
+                "id": 2019,
+                "name": "Serie A"
+            },
+            "season": {
+                "id": 530,
+                "startDate": "2019-08-24",
+                "endDate": "2020-05-24",
+                "currentMatchday": 14,
+                "winner": null
+            },
+            "utcDate": "2019-12-07T17:00:00Z",
+            "status": "SCHEDULED",
+            "matchday": 15,
+            "stage": "REGULAR_SEASON",
+            "group": "Regular Season",
+            "lastUpdated": "2019-09-26T15:34:19Z",
+            "score": {
+                "winner": null,
+                "duration": "REGULAR",
+                "fullTime": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                },
+                "halfTime": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                },
+                "extraTime": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                },
+                "penalties": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                }
+            },
+            "homeTeam": {
+                "id": 115,
+                "name": "Udinese Calcio"
+            },
+            "awayTeam": {
+                "id": 113,
+                "name": "SSC Napoli"
+            },
+            "referees": []
+        },
+        {
+            "id": 279368,
+            "competition": {
+                "id": 2019,
+                "name": "Serie A"
+            },
+            "season": {
+                "id": 530,
+                "startDate": "2019-08-24",
+                "endDate": "2020-05-24",
+                "currentMatchday": 14,
+                "winner": null
+            },
+            "utcDate": "2019-12-07T19:45:00Z",
+            "status": "SCHEDULED",
+            "matchday": 15,
+            "stage": "REGULAR_SEASON",
+            "group": "Regular Season",
+            "lastUpdated": "2019-09-26T15:34:19Z",
+            "score": {
+                "winner": null,
+                "duration": "REGULAR",
+                "fullTime": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                },
+                "halfTime": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                },
+                "extraTime": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                },
+                "penalties": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                }
+            },
+            "homeTeam": {
+                "id": 110,
+                "name": "SS Lazio"
+            },
+            "awayTeam": {
+                "id": 109,
+                "name": "Juventus FC"
+            },
+            "referees": []
+        },
+        {
+            "id": 279376,
+            "competition": {
+                "id": 2019,
+                "name": "Serie A"
+            },
+            "season": {
+                "id": 530,
+                "startDate": "2019-08-24",
+                "endDate": "2020-05-24",
+                "currentMatchday": 14,
+                "winner": null
+            },
+            "utcDate": "2019-12-08T11:30:00Z",
+            "status": "SCHEDULED",
+            "matchday": 15,
+            "stage": "REGULAR_SEASON",
+            "group": "Regular Season",
+            "lastUpdated": "2019-09-26T15:34:19Z",
+            "score": {
+                "winner": null,
+                "duration": "REGULAR",
+                "fullTime": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                },
+                "halfTime": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                },
+                "extraTime": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                },
+                "penalties": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                }
+            },
+            "homeTeam": {
+                "id": 5890,
+                "name": "US Lecce"
+            },
+            "awayTeam": {
+                "id": 107,
+                "name": "Genoa CFC"
+            },
+            "referees": []
+        },
+        {
+            "id": 279372,
+            "competition": {
+                "id": 2019,
+                "name": "Serie A"
+            },
+            "season": {
+                "id": 530,
+                "startDate": "2019-08-24",
+                "endDate": "2020-05-24",
+                "currentMatchday": 14,
+                "winner": null
+            },
+            "utcDate": "2019-12-08T14:00:00Z",
+            "status": "SCHEDULED",
+            "matchday": 15,
+            "stage": "REGULAR_SEASON",
+            "group": "Regular Season",
+            "lastUpdated": "2019-09-26T15:34:19Z",
+            "score": {
+                "winner": null,
+                "duration": "REGULAR",
+                "fullTime": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                },
+                "halfTime": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                },
+                "extraTime": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                },
+                "penalties": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                }
+            },
+            "homeTeam": {
+                "id": 586,
+                "name": "Torino FC"
+            },
+            "awayTeam": {
+                "id": 99,
+                "name": "ACF Fiorentina"
+            },
+            "referees": []
+        },
+        {
+            "id": 279374,
+            "competition": {
+                "id": 2019,
+                "name": "Serie A"
+            },
+            "season": {
+                "id": 530,
+                "startDate": "2019-08-24",
+                "endDate": "2020-05-24",
+                "currentMatchday": 14,
+                "winner": null
+            },
+            "utcDate": "2019-12-08T14:00:00Z",
+            "status": "SCHEDULED",
+            "matchday": 15,
+            "stage": "REGULAR_SEASON",
+            "group": "Regular Season",
+            "lastUpdated": "2019-09-26T15:34:19Z",
+            "score": {
+                "winner": null,
+                "duration": "REGULAR",
+                "fullTime": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                },
+                "halfTime": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                },
+                "extraTime": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                },
+                "penalties": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                }
+            },
+            "homeTeam": {
+                "id": 471,
+                "name": "US Sassuolo Calcio"
+            },
+            "awayTeam": {
+                "id": 104,
+                "name": "Cagliari Calcio"
+            },
+            "referees": []
+        },
+        {
+            "id": 279375,
+            "competition": {
+                "id": 2019,
+                "name": "Serie A"
+            },
+            "season": {
+                "id": 530,
+                "startDate": "2019-08-24",
+                "endDate": "2020-05-24",
+                "currentMatchday": 14,
+                "winner": null
+            },
+            "utcDate": "2019-12-08T14:00:00Z",
+            "status": "SCHEDULED",
+            "matchday": 15,
+            "stage": "REGULAR_SEASON",
+            "group": "Regular Season",
+            "lastUpdated": "2019-09-26T15:34:19Z",
+            "score": {
+                "winner": null,
+                "duration": "REGULAR",
+                "fullTime": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                },
+                "halfTime": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                },
+                "extraTime": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                },
+                "penalties": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                }
+            },
+            "homeTeam": {
+                "id": 1107,
+                "name": "SPAL 2013"
+            },
+            "awayTeam": {
+                "id": 449,
+                "name": "Brescia Calcio"
+            },
+            "referees": []
+        },
+        {
+            "id": 279371,
+            "competition": {
+                "id": 2019,
+                "name": "Serie A"
+            },
+            "season": {
+                "id": 530,
+                "startDate": "2019-08-24",
+                "endDate": "2020-05-24",
+                "currentMatchday": 14,
+                "winner": null
+            },
+            "utcDate": "2019-12-08T17:00:00Z",
+            "status": "SCHEDULED",
+            "matchday": 15,
+            "stage": "REGULAR_SEASON",
+            "group": "Regular Season",
+            "lastUpdated": "2019-09-26T15:34:19Z",
+            "score": {
+                "winner": null,
+                "duration": "REGULAR",
+                "fullTime": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                },
+                "halfTime": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                },
+                "extraTime": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                },
+                "penalties": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                }
+            },
+            "homeTeam": {
+                "id": 584,
+                "name": "UC Sampdoria"
+            },
+            "awayTeam": {
+                "id": 112,
+                "name": "Parma Calcio 1913"
+            },
+            "referees": []
+        },
+        {
+            "id": 279373,
+            "competition": {
+                "id": 2019,
+                "name": "Serie A"
+            },
+            "season": {
+                "id": 530,
+                "startDate": "2019-08-24",
+                "endDate": "2020-05-24",
+                "currentMatchday": 14,
+                "winner": null
+            },
+            "utcDate": "2019-12-08T19:45:00Z",
+            "status": "SCHEDULED",
+            "matchday": 15,
+            "stage": "REGULAR_SEASON",
+            "group": "Regular Season",
+            "lastUpdated": "2019-09-26T15:34:19Z",
+            "score": {
+                "winner": null,
+                "duration": "REGULAR",
+                "fullTime": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                },
+                "halfTime": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                },
+                "extraTime": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                },
+                "penalties": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                }
+            },
+            "homeTeam": {
+                "id": 103,
+                "name": "Bologna FC 1909"
+            },
+            "awayTeam": {
+                "id": 98,
+                "name": "AC Milan"
+            },
+            "referees": []
+        }
+    ]
+}
