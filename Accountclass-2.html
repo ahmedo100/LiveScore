@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script type="text/javascript">
+        // Program name : Accountclass.html
+        // Purpose: Use a constructor function
+        // to create an object
+        // Author : Paul Addison
+        // Date last modified: 01-Sep-2011
+        
+        class Account {
+            //constructor
+                constructor(type,num,lname,fname,bal){
+                    this.acctType  = type;
+                    this.accNumber = num;
+                    this.lastName  =lname;
+                    this.firstName =fname;
+                    this.acctBal   = bal;
+
+                    //link the current object to the class methods
+                    this.deposit =deposit;
+                    this.withdraw = withdraw;
+                    this.changeName = changeName;
+                    this.inquire = inquire;
+                    this.displayInfo = displayInfo;
+                }//end function
+
+            //Function to deposit in the account
+             deposit(amt){
+                this.acctBal +=amt;
+                document.write("New balance: $"+this.acctBal+BR);
+            }//end function
+
+            withdraw(amt){
+                this.acctBal = this.acctBal - amt;
+                document.write("New balance: $"+this.acctBal+BR);
+            }
+            changeName(lName,fName){
+                this.lastName =lName;
+                this.firstName = fName;
+                document.write("The name has been changed to "+this.firstName+" "+this.lastName+BR);
+            }
+            inquire(){
+                document.write("Balance :$"+this.acctBal+BR);
+            }
+            //A function that displays all account information
+            displayInfo(){
+                document.write("Account type: "+this.acctType+BR);
+                document.write("Account #: "+this.lastName+BR);
+                document.write("Last name: "+this.lastName +BR);
+                document.write("First name: "+this.firstName + BR);
+                document.write("Balance: $"+this.acctBal+ BR);
+            }
+        }
+        </script>
+</head>
+<body>
+    <script type="text/javascript">
+        var BR = "<br />"; // html line break tag
+        //State program purpose
+        document.write("Account program."+BR);
+        document.write("This program creates an account."+BR);
+        document.write("It also modifies the account");
+        var mySavingAcct = new Account("S","123456","Dunes","Sandi",80.00);
+        mySavingAcct.deposit(100);
+        mySavingAcct.withdraw(50);
+        mySavingAcct.inquire();
+        mySavingAcct.displayInfo();
+        
+        //Thank the user and end of program
+        document.write("Thank you "+BR);
+        </script>
+</body>
+</html>
