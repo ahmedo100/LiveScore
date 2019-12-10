@@ -1,4 +1,4 @@
-var apiKey = "91b5ee0b57a04c0384426decea163a29";
+var apiKey = "";
 //league name map 
 var leagueNamesMap = new Map();
 leagueNamesMap.set(2021,"Premiere league : Angleterre");
